@@ -1,0 +1,40 @@
+/*---| b-modal |----------------------------------------------------------------*/
+
+.b-modal {
+  width: 800px;
+  position: absolute;
+  top: 200px;
+  left: 50%;
+  margin-left: -200px;
+  background: #ffffff;
+
+  display: none;
+}
+
+.b-modal__content {
+  padding: 20px;
+}
+
+.b-modal__close {
+  color: #000000;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.b-modal-backdrop {
+  position: fixed;
+  .opacity(0.5);
+  background: #ff0000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+  z-index: 1000;
+}
+
+/*===| b-modal |=================================================================*/
